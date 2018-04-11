@@ -44,7 +44,7 @@ ssh-copy-id $IP #$IP为本虚机地址，按照提示输入yes 和root密码
 ```
 ### 4.安装kubernetes集群
 ``` bash
-git clone https://github.com/gjmzj/kubeasz.git
+git clone https://github.com/gjmzj/kubeasz.git -b v1.9
 mkdir -p /etc/ansible
 mv kubeasz/* /etc/ansible
 # 下载已打包好的binaries，解压到/etc/ansible/bin目录
